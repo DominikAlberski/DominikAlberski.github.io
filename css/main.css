@@ -492,9 +492,13 @@ background-color: #000
   }
 
   /* BLOG STYLES */
-  .blog-recent {
-    display: none;
+  .blog-cols {
+    display: flex;
+    flex-direction: column-reverse;
   }
+/*  .blog-recent {
+    display: none;
+  }*/
   .blog-previews {
     padding: 0;
   }

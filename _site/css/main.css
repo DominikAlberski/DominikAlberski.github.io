@@ -125,42 +125,6 @@ h2 ~ p {
   border-left: 1px solid rgba(255, 255, 255, 0.3);
   padding-left: 1em;
 }
-.dropdown {
-  position: relative;
-}
-.drop-trigger {
-  display: inline-block;
-  padding-right: 1.5em;
-  position: relative;
-}
-.drop-trigger:after {
-  border: 0.3em solid;
-  border-color: #fff transparent transparent;
-  content: "";
-  height: 0;
-  position: absolute;
-  right: 0;
-  top: 0.3em;
-  width: 0;
-}
-.drop-menu {
-  display: none;
-  list-style: none;
-  padding: 1em 0 0;
-  position: absolute;
-  right: 0;
-  z-index: 9;
-}
-.drop-menu li {
-  background-color: #fff;
-}
-.drop-menu a {
-  color: #333;
-  display: block;
-}
-.dropdown:hover .drop-menu {
-  display: block;
-}
 
 /* DROPDOWN STYLES */
 .dropdown {
@@ -244,6 +208,7 @@ h2 ~ p {
 .footer .drop-trigger {
   padding-right: 0;
 }
+
 
 /* FOOTER */
 

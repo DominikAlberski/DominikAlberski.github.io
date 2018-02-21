@@ -90,7 +90,8 @@ h2 ~ p {
   color: #fff;
 }
 .nav-links a,
-.drop-trigger {
+.drop-trigger,
+.show-mobile-menu {
   font-size: 0.8rem;
   font-weight: bold;
   text-decoration: none;
@@ -125,7 +126,11 @@ h2 ~ p {
   border-left: 1px solid rgba(255, 255, 255, 0.3);
   padding-left: 1em;
 }
-
+/* MOBILE MENU */
+.mobile-menu-check,
+.show-mobile-menu {
+  display: none;
+}
 /* DROPDOWN STYLES */
 .dropdown {
   position: relative;
@@ -617,6 +622,64 @@ background-color: #000
   }
   .gallery .gallery-info {
     flex: 1;
+  }
+  /* MOBILE MENU */
+    .show-mobile-menu {
+      display: block;
+      float: right;
+      margin-top: 1.5vh
+      padding: 1.5em;
+      position: relative;
+    }
+    .header-nav {
+      background-color: #444;
+      box-sizing: border-box;
+      left: 0;
+      max-height: 0;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      text-align: center;
+      top: 10vh;
+      transition: all 0.5s ease-in-out;
+      width: 100vw;
+      z-index: 9;
+    }
+    .header-nav li {
+      display: block;
+      margin-top: 1em;
+    }
+    .header-nav li ~ li {
+      border: 0;
+      padding: 0;
+    }
+    .header-nav li:last-child {
+      margin-bottom: 1em;
+    }
+    .header-nav li:first-child a {
+      color: #fff;
+    }
+    /* HIDE DROPDOWN IN THE NAV MENU */
+    .header-nav .dropdown:hover .drop-menu,
+    .header-nav .drop-trigger:after {
+      display: none;
+    }
+    .header-nav .drop-trigger {
+      padding-right: 0;
+    }
+    .mobile-menu-check:checked ~ .header-nav {
+      max-height: 90vh;
+    }
+    .mobile-menu-check:checked ~ .show-mobile-menu:after {
+      background-color: #000;
+      color: #ed6e2f;
+      content: "X";
+      left: 0;
+      position: absolute;
+      top: 1.5em;
+      width: 100%;
+      text-align: center;
+    }
   }
 }
 

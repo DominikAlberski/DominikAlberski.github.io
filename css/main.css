@@ -455,8 +455,8 @@ background-color: #000
 .gallery-thumbs img:hover {
   opacity: 1;
 }
-.gallery-thumbs .cuurent img {
-  box-shadow: 000 5px #ed6e2f;
+.gallery-thumbs .current img {
+  box-shadow: 0 0 0 5px #ed6e2f;
   opacity: 1;
 }
 .gallery-photo {

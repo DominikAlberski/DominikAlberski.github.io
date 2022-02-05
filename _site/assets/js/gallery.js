@@ -9,6 +9,11 @@ function activateGallery() {
   let description = document.querySelector("#gallery-info .description")
 
   thumbanails.forEach(function(thumbanail) {
+
+    let newImageSrc  = thumbnail.dataset.largeVersion;
+    let largeVersion = new Image();
+    largeVersion.src = newImageSrc;
+
     thumbanail.addEventListener("click", function() {
       mainImg.setAttribute("src", thumbanail.dataset.largeVersion);
       mainImg.setAttribute("alt", thumbanail.alt);

@@ -283,7 +283,7 @@ h2 ~ p {
   position: relative;
   text-align: center;
   text-transform: uppercase;
-  top: 50%;
+  top: 30%;
   -webkit-transform: translate(o, -50%);
   -ms-transform: translate(o, -50%);
   -o-transform: translate(o, -50%);
@@ -291,8 +291,16 @@ h2 ~ p {
 }
 .hero-content h1 {
   color: rgba(255, 255, 255, 0.8);
+  font-weight: bold;
   font-size: 7vw;
   margin-bottom: 0.25em;
+}
+.hero-content h2 {
+  margin-bottom: 0.25em;
+}
+.hero-content .hero-title {
+  padding-bottom: 0.25em;
+  background-color: rgba(0, 0, 0, 0.562);
 }
 .hero-content .social-link {
   background-color: rgba(255, 255, 255, 0.8);
@@ -319,8 +327,8 @@ h2 ~ p {
   transform: translate(-50%, 0);
 }
 .hero-home {
-  background-image: url(/images/shark.jpg);
-  background-position: 30% center;
+  background-image: url(/assets/images/code_fractale.jpg);
+  background-position: 90% center;
 }
 
 .half-hero {

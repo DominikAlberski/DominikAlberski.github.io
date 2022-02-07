@@ -51,7 +51,7 @@ h2 ~ p {
 .content-container {
   display: flex;
   flex: 1 1 auto;
-  padding-top: 10vh;
+  padding-top: 1vh;
   width: 100%;
 }
 
@@ -82,7 +82,7 @@ h2 ~ p {
   z-index: 20;
 }
 .header-nav {
-  padding: 5.5vh 60px 0 0;
+  padding: 3vh;
   float: right;
 }
 .header-nav > li {
@@ -573,7 +573,7 @@ background-color: #000
 
   /* HEADER STYLES */
   .header-nav {
-    padding: 2vh 1em 0 0;
+    padding: 3vh 3vw;
   }
   .header-nav > li {
     margin-left: 0.25em;
@@ -652,7 +652,7 @@ background-color: #000
       padding: 0;
       position: absolute;
       text-align: center;
-      top: 10vh;
+      top: 3vh;
       transition: all 0.5s ease-in-out;
       width: 100vw;
       z-index: 9;

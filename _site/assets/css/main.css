@@ -553,6 +553,16 @@ background-color: #000
   margin-bottom: 2.5em;
   text-align: center;
 }
+.post .post-header .company {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: flex-start;
+}
+.post .post-header .company-name {
+  display: block;
+}
 .post-content {
   font-size: 1.1rem;
 }
@@ -639,7 +649,7 @@ background-color: #000
     .show-mobile-menu {
       display: block;
       float: right;
-      margin-top: 1.5vh
+      margin-top: 1.5vh;
       padding: 1.5em;
       position: relative;
     }

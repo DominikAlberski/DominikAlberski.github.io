@@ -355,7 +355,7 @@ h2 ~ p {
   width: 1.5em;
 }
 .social-link:hover {
-background-color: #000
+  background-color: #000
 }
 .social-list {
   list-style: none;
@@ -560,8 +560,11 @@ background-color: #000
   justify-content: center;
   align-items: flex-start;
 }
-.post .post-header .company-name {
+.post .post-header .company .company-name {
   display: block;
+}
+.post .post-header .company .company-link {
+  display: flex;
 }
 .post-content {
   font-size: 1.1rem;

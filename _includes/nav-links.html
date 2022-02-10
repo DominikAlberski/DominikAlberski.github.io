@@ -4,7 +4,7 @@
   <a class="drop-trigger" href="/education">Education</a>
   <ul class="drop-menu">
     <li>Education</li>
-    {% for education in site.posts,education limit:5 %}
+    {% for education in site.posts.education limit:5 %}
       <li><a href="{{ education.url }}">{{ education.title }}</a></li>
     {% endfor %}
   </ul>

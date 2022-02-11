@@ -11,7 +11,7 @@ location: Warsaw, Masovian District, Poland
 postFooter: ""
 ---
 
-I was part of small developer team. We were expanding and maintaining CRM like system for the in company use. My responsibilities were focused around backend part of application but occasionally there was also front end tasks. Application was used by various company departments and required different features and integrations with systems from other collaborating companies.
+I was part of small developer team. We were expanding and maintaining CRM like system for the in company use. My responsibilities were focused around backend part of the application with focus on new features and maintenance,  occasionally there were also front end tasks. Application was used by various company departments and required different features and integrations with systems from other collaborating companies.
 
 During my time there I was able to broaden my knowledge about APIs and system integrations. I was also introduced to Kanban based system for project management.
 

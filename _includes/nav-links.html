@@ -1,19 +1,19 @@
 <li><a href="/">Home</a></li>
 <!-- <li><a href="/gallery">Gallery</a></li> -->
-<li class="dropdown">
-  <a class="drop-trigger" href="/education">Education</a>
+<!-- <li class="dropdown">
+  <a class="drop-trigger" href="#">Education</a>
   <ul class="drop-menu">
     <li>Education</li>
     {% for education in site.posts.education limit:5 %}
       <li><a href="{{ education.url }}">{{ education.title }}</a></li>
     {% endfor %}
   </ul>
-</li>
+</li> -->
 <li class="dropdown">
-  <a class="drop-trigger" href="/experience">Experience</a>
+  <a class="drop-trigger" href="/#positions">Experience</a>
   <ul class="drop-menu">
     <li>Recent Positions</li>
-    {% for position in site.posts.positions limit:5 %}
+    {% for position in site.positions limit:5 %}
       <li><a href="{{ position.url }}">{{ position.title }}</a></li>
     {% endfor %}
   </ul>

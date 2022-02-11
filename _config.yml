@@ -2,5 +2,10 @@ collections_dir: collections
 collections:
   positions:
     output: true
+    order:
+      - react_poland.md
+      - admad.md
+      - logihub.md
+      - lli.md
   educations:
     output: true

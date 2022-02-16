@@ -384,13 +384,21 @@ h2 ~ p {
   color: #fff;
   padding: 9vh 0;
 }
-.callout-title {
+.home-positions {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  color: #000;
+  padding: 9vh 0;
+}
+
+.callout-title, .positions-title {
   flex: 1;
   font-size: 5.75vw;
   text-align: right;
   text-transform: uppercase;
 }
-.callout-copy {
+.callout-copy, .positions-list{
   flex: 0 0 45em;
   padding: 0 3vw;
   font-size: 0.8rem;

@@ -384,7 +384,7 @@ h2 ~ p {
   color: #fff;
   padding: 9vh 0;
 }
-.home-positions {
+.home-positions, .home-educations {
   display: flex;
   align-items: center;
   background-color: #fff;
@@ -392,11 +392,11 @@ h2 ~ p {
   padding: 9vh 0;
 }
 
-.positions-title {
+.positions-title, .educations-title {
   flex: 1;
 }
 
-.positions-title > h1 {
+.positions-title > h1, .educations-title > h1 {
   text-align: center;
   font-size: 5.75vw;
   text-transform: uppercase;
@@ -408,7 +408,7 @@ h2 ~ p {
   text-align: right;
   text-transform: uppercase;
 }
-.callout-copy, .positions-list{
+.callout-copy, .positions-list, .educations-list {
   flex: 0 0 45em;
   padding: 0 3vw;
   font-size: 0.8rem;

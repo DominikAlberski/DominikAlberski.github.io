@@ -49,6 +49,19 @@ layout: default
     </div>
   </div>
 
+<br/>
+
+  <div id="educations" class="home-educations">
+    <div class="educations-title">
+      <h1>Education</h1>
+    </div>
+    <div class="educations-list">
+      {% for education in site.educations %}
+        {% include education-summary.html %}
+      {% endfor %}
+    </div>
+  </div>
+
   <!-- <div class="home-section">
     <h2>THE FOUNDERS</h2>
     <p>

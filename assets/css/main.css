@@ -392,7 +392,17 @@ h2 ~ p {
   padding: 9vh 0;
 }
 
-.callout-title, .positions-title {
+.positions-title {
+  flex: 1;
+}
+
+.positions-title > h1 {
+  text-align: center;
+  font-size: 5.75vw;
+  text-transform: uppercase;
+}
+
+.callout-title {
   flex: 1;
   font-size: 5.75vw;
   text-align: right;
@@ -403,6 +413,11 @@ h2 ~ p {
   padding: 0 3vw;
   font-size: 0.8rem;
 }
+
+.company-title {
+  padding: 5px 0;
+}
+
 .home-section h4 {
   margin-bottom: 0.5em;
   text-align: center;

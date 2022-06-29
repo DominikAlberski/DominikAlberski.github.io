@@ -13,7 +13,7 @@ postFooter: ""
 
 My first commercial programming experience.
 
-I've learn a lot here. I was working as a team member and have my first hands on experience with git flow.
+I've learn a lot here. I was working in a small team and have my first hands on experience with git flow.
 
 It was also the first time for me the get part in agile project management process similar to scrum.
 

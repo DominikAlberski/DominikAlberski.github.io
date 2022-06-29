@@ -384,17 +384,40 @@ h2 ~ p {
   color: #fff;
   padding: 9vh 0;
 }
+.home-positions {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  color: #000;
+  padding: 9vh 0;
+}
+
+.positions-title {
+  flex: 1;
+}
+
+.positions-title > h1 {
+  text-align: center;
+  font-size: 5.75vw;
+  text-transform: uppercase;
+}
+
 .callout-title {
   flex: 1;
   font-size: 5.75vw;
   text-align: right;
   text-transform: uppercase;
 }
-.callout-copy {
+.callout-copy, .positions-list{
   flex: 0 0 45em;
   padding: 0 3vw;
   font-size: 0.8rem;
 }
+
+.company-title {
+  padding: 5px 0;
+}
+
 .home-section h4 {
   margin-bottom: 0.5em;
   text-align: center;

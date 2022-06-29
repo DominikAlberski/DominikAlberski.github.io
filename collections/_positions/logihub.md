@@ -9,6 +9,7 @@ to: Jan 2020
 period: 1 yr 2 mos
 location: Warsaw, Masovian District, Poland
 postFooter: ""
+position_no: 2
 ---
 
 I was part of small developer team. We were expanding and maintaining CRM like system for the in company use. My responsibilities were focused around backend part of the application with focus on new features and maintenance,  occasionally there were also front end tasks. Application was used by various company departments and required different features and integrations with systems from other collaborating companies.

@@ -9,7 +9,7 @@ to: Nov 2018
 period: 1 yr 3 mos
 location: Warsaw, Masovian District, Poland
 postFooter: ""
-position_no: 1
+position_no: 4
 ---
 
 My first commercial programming experience.

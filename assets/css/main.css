@@ -414,7 +414,7 @@ h2 ~ p {
   font-size: 0.8rem;
 }
 
-.company-title {
+.company-title, .educations-name {
   padding: 5px 0;
 }
 
@@ -576,17 +576,17 @@ h2 ~ p {
   margin-bottom: 2.5em;
   text-align: center;
 }
-.post .post-header .company {
+.post .post-header .company, .post .post-header .school {
   display: flex;
   flex-direction: row;
   align-content: center;
   justify-content: center;
   align-items: flex-start;
 }
-.post .post-header .company .company-name {
+.post .post-header .company .company-name, .post .post-header .school .school-name {
   display: block;
 }
-.post .post-header .company .company-link {
+.post .post-header .company .company-link, .post .post-header .school .school-link {
   display: flex;
 }
 .post-content {

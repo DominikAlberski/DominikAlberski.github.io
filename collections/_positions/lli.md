@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: experience
 title: Junior Ruby on Rails Developer
 company: LLinformatics
 companyLogo: /assets/images/logo/logo-lli.jpeg

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: experience
 title: Junior Ruby Developer
 company: Logihub Sp. z o.o.
 companyLogo: false

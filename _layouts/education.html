@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<div class="post">
+  <!-- <div class="half-hero" style='background-image: url({{ page.postHero }});'></div> -->
+
+  <article class="page">
+    <header class="post-header">
+      <h1>{{ page.title }}</h1>
+      <div class="school">
+        {% if page.schoolAddress %}
+          <a href="{{ page.schoolAddress }}" class="school-link" target="_blank">
+            {% if page.schoolLogo %}
+              <img src="{{ page.schoolLogo }}" alt="logo">
+            {% endif %}
+            <h2 class="school-name">{{ page.school }}</h2>
+          </a>
+        {% else %}
+          {% if page.schoolLogo %}
+            <img src="{{ page.schoolLogo }}" alt="logo">
+          {% endif %}
+          <h2 class="school-name">{{ page.school }}</h2>
+        {% endif %}
+      </div>
+      <div class="post-byline">
+        <p><span>{{ page.from }} - {{ page.to }}</span></p>
+        <p><span>{{ page.period }}</span></p>
+      </div>
+    </header>
+    <!-- <aside class="post-aside">
+      {% include recent-post-list.html %}
+    </aside> -->
+    <div class="post-content">
+      {{ content }}
+    </div>
+    <footer class="post-footer">
+      {{ page.postFooter }}
+    </footer>
+  </article>
+</div>

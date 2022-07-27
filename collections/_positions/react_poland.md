@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: experience
 title: Ruby Developer
 company: React Poland
 companyLogo: false

@@ -12,7 +12,11 @@ postFooter: ""
 position_no: 1
 ---
 
-My main responsibility was the development of new features for the new backend API and maintaining the legacy application running. Technologies that I used were Rails 4.2, Rails 7, maria-db as database, minitest and RSpec for testing.
+I was responsible for, maintaining and development of new features for one of the company clients. My work was focused mainly on backend api project that would communicate with frontend application.
+
+During my work I was able to introduce new and improve existing practices for writing code and tests, we managed to improve cleanliness and test coverage of the codebase by significant percentage.
+
+I worked with technologies and gems like Rails 4.2, Rails 7, grape, swagger, sidekiq, maria-db, minitest and RSpec.
 
 
 

@@ -11,7 +11,7 @@ postFooter: ""
 position_no: 3
 ---
 
-My first encounter with programming was during this period. I’ve learned basic concepts of variables, constance, loops and control flow. We were working in PASCAL and C+.
+My first encounter with programming was during this period. I’ve learned basic concepts of variables, constance, loops and control flow. We were learning basics of PASCAL and C.
 
 
 

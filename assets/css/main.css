@@ -601,6 +601,21 @@ h2 ~ p {
   padding-top: 2em;
 }
 
+/* Articles styles */
+
+.articles-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.articles-cards > .article-card {
+  flex: 1;
+  text-align: center;
+  margin: 1em;
+  min-width: 25vh;
+}
 
 @media (max-width: 800px) {
   html {

@@ -1,7 +1,0 @@
-I"�<p>DDD article about differences between domain and application service objects</p>
-<ul>
-  <li>Domain services carry domain knowledge; application services don’t (ideally).</li>
-  <li>Domain services hold domain logic that doesn’t naturally fit entities and value objects.</li>
-  <li>Introduce domain services when you see that some logic cannot be attributed to an entity/value object because that would break their isolation.</li>
-</ul>
-:ET

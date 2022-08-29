@@ -6,3 +6,5 @@ collections:
   educations:
     output: true
     sort_by: position_no
+  articles:
+    output: false

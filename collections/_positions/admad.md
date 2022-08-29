@@ -13,8 +13,3 @@ position_no: 2
 ---
 
 This is direct continuation of previous contract, for the same company and management but different branch / brand.
-
-One of the main new responsibilities was making PR reviews of my less experience colleagues.
-
-
-

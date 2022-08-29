@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Programming & IT</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:100" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <link rel="stylesheet" href="/assets/css/reset.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <!-- <script src="assets/js/gallery.js"></script> -->
+  <!-- <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      activateGallery();
+    });
+  </script> -->
+</head>
+
+  <body>
+    <header class="header">
+  <nav>
+    <input type="checkbox" id="mobile-menu" class="mobile-menu-check">
+    <label for="mobile-menu" class="show-mobile-menu">Menu</label>
+    <ul class="header-nav nav-links">
+      <li><a href="/">Home</a></li>
+<!-- <li><a href="/gallery">Gallery</a></li> -->
+<li class="dropdown">
+  <a class="drop-trigger" href="/#positions">Experience</a>
+  <ul class="drop-menu">
+    <li>Recent Positions</li>
+    
+      <li><a href="/positions/react_poland.html">Ruby Developer</a></li>
+    
+      <li><a href="/positions/admad.html">Ruby Developer</a></li>
+    
+      <li><a href="/positions/logihub.html">Junior Ruby Developer</a></li>
+    
+  </ul>
+</li>
+<li class="dropdown">
+  <a class="drop-trigger" href="/#educations">Education</a>
+  <ul class="drop-menu">
+    <li>Recent Education</li>
+    
+      <li><a href="/educations/coderslab.html">Coding Bootcamp graduate</a></li>
+    
+      <li><a href="/educations/university.html">Master in Social Psychology</a></li>
+    
+      <li><a href="/educations/high_school.html">Computer Science Technician</a></li>
+    
+  </ul>
+</li>
+<li>
+  <a href="/articles">Links</a>
+</li>
+<!-- <li><a href="/2016/11/04/title-of-second-post.html">Newest Post</a></li> -->
+
+    </ul>
+  </nav>
+  <!-- <a href="/" class="header-logo">
+    <img src="/assets/images/logo.png" alt="Lern Enough">
+  </a> -->
+</header>
+
+
+
+    <dic class='content-container'>
+      <div class="articles-cards">
+  
+    <div class="article-card">
+  <header class="article-header">
+    <div class="article-title">
+      <a href="https://semaphoreci.com/community/tutorials/dockerizing-a-ruby-on-rails-application" taget="blank">
+        <h2>
+          Dockerizing a Ruby on Rails Application
+        </h2>
+      </a>
+    </div>
+    <div class="article-autor-name">
+      <h3>
+        Nick Janetakis
+      </h3>
+    </div>
+  </header>
+  <main>
+    <p>Tutorial for using docker to run Rails with Postgres and Redit</p>
+
+  </main>
+</div>
+  
+    <div class="article-card">
+  <header class="article-header">
+    <div class="article-title">
+      <a href="https://kukicola.io/posts/deploying-rails-6-application-with-dokku" taget="blank">
+        <h2>
+          Dokku
+        </h2>
+      </a>
+    </div>
+    <div class="article-autor-name">
+      <h3>
+        Karol Bąk
+      </h3>
+    </div>
+  </header>
+  <main>
+    <p>Simple 1 server solution for online hosting service (exp. Digital ocean) that allows simple heroku like deployment</p>
+
+  </main>
+</div>
+  
+    <div class="article-card">
+  <header class="article-header">
+    <div class="article-title">
+      <a href="https://enterprisecraftsmanship.com/posts/domain-vs-application-services" taget="blank">
+        <h2>
+          Domain vs Application services
+        </h2>
+      </a>
+    </div>
+    <div class="article-autor-name">
+      <h3>
+        Vladimir Khorikov
+      </h3>
+    </div>
+  </header>
+  <main>
+    <p>DDD article about differences between domain and application service objects</p>
+<ul>
+  <li>Domain services carry domain knowledge; application services don’t (ideally).</li>
+  <li>Domain services hold domain logic that doesn’t naturally fit entities and value objects.</li>
+  <li>Introduce domain services when you see that some logic cannot be attributed to an entity/value object because that would break their isolation.</li>
+</ul>
+
+  </main>
+</div>
+  
+    <div class="article-card">
+  <header class="article-header">
+    <div class="article-title">
+      <a href="https://dev.to/keithrbennett/lambdas-are-better-than-procs-52a1" taget="blank">
+        <h2>
+          Lambdas are better then procs
+        </h2>
+      </a>
+    </div>
+    <div class="article-autor-name">
+      <h3>
+        Keith Bennett
+      </h3>
+    </div>
+  </header>
+  <main>
+    <p>Prefer lambdas over procs</p>
+<ul>
+  <li>a <code class="language-plaintext highlighter-rouge">Proc</code> instance can be either lambda or a proc</li>
+  <li>all <code class="language-plaintext highlighter-rouge">lambda</code>s are <code class="language-plaintext highlighter-rouge">Proc</code>s</li>
+  <li>all <code class="language-plaintext highlighter-rouge">proc</code>s are <code class="language-plaintext highlighter-rouge">Proc</code>s</li>
+  <li>code blocks behave like <code class="language-plaintext highlighter-rouge">proc</code>s</li>
+  <li>you can determine the kind of Proc by calling <code class="language-plaintext highlighter-rouge">lambda?</code> on it
+lambda -&gt; strict argument count
+lambada -&gt; do not return from method when return is called in it</li>
+</ul>
+
+  </main>
+</div>
+  
+</div>
+
+
+    </dic>
+
+    <footer class="footer">
+  <!-- <a class='footer-logo' href="/"><img src="/assets/images/logo.png" alt="Lern Enough"></a> -->
+  <nav>
+    <ul class="footer-nav nav-links">
+      <li><a href="/">Home</a></li>
+<!-- <li><a href="/gallery">Gallery</a></li> -->
+<li class="dropdown">
+  <a class="drop-trigger" href="/#positions">Experience</a>
+  <ul class="drop-menu">
+    <li>Recent Positions</li>
+    
+      <li><a href="/positions/react_poland.html">Ruby Developer</a></li>
+    
+      <li><a href="/positions/admad.html">Ruby Developer</a></li>
+    
+      <li><a href="/positions/logihub.html">Junior Ruby Developer</a></li>
+    
+  </ul>
+</li>
+<li class="dropdown">
+  <a class="drop-trigger" href="/#educations">Education</a>
+  <ul class="drop-menu">
+    <li>Recent Education</li>
+    
+      <li><a href="/educations/coderslab.html">Coding Bootcamp graduate</a></li>
+    
+      <li><a href="/educations/university.html">Master in Social Psychology</a></li>
+    
+      <li><a href="/educations/high_school.html">Computer Science Technician</a></li>
+    
+  </ul>
+</li>
+<li>
+  <a href="/articles">Links</a>
+</li>
+<!-- <li><a href="/2016/11/04/title-of-second-post.html">Newest Post</a></li> -->
+
+    </ul>
+  </nav>
+  <h3>Programming &#38; IT <span>Dominik Alberski</span></h3>
+  <nav>
+    <ul class="social-list">
+      <!-- <li>
+  <a href="http://example.com/" class="social-link"><i class="fab fa-facebook-f"></i></a>
+</li> -->
+<li>
+  <a href="https://www.linkedin.com/in/dominik-alberski/" class="social-link" target="blank"><i class="fab fa-linkedin"></i></a>
+</li>
+<li>
+  <a href="https://github.com/DominikAlberski" class="social-link" target="blank"><i class="fab fa-github"></i></a>
+</li>
+
+    </ul>
+  </nav>
+</footer>
+
+  </body>
+</html>

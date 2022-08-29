@@ -391,6 +391,7 @@ h2 ~ p {
   background-color: #fff;
   color: #000;
   padding: 9vh 0;
+  border-bottom: dotted 1px rgba(0, 0, 0, 0.1);
 }
 
 .positions-title, .educations-title {
@@ -611,12 +612,38 @@ h2 ~ p {
 }
 
 .articles-cards > .article-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   flex: 1;
   text-align: center;
   margin: 1em;
-  min-width: 25vh;
+  min-width: 45vh;
+  border-bottom: dotted 1px rgba(0, 0, 0, 0.1);
 }
 
+.articles-cards > .article-card > header .article-title {
+  margin-bottom: 1.5em;
+}
+
+.articles-cards > .article-card > main {
+  text-align: left;
+  list-style-position: inside;
+}
+
+.articles-cards > .article-card > main > ul li {
+  margin: 0.5em;
+}
+
+.article-card a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.article-card a:hover,
+.article-card a:active {
+  color: #ed6e2f;
+}
 @media (max-width: 800px) {
   html {
     box-shadow: none;

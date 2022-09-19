@@ -1,11 +1,13 @@
 ---
 layout: default
-title: Summarize of articles that I've read and are worth you time
+title: Summarize of articles that I've read and are worth your time
 ---
 
 <div class="articles-cards">
   {% for article in site.articles %}
-    {% include article-card.html %}
+    {% unless article.draft %}
+      {% include article-card.html %}
+    {% endunless %}
   {% endfor %}
 </div>
 

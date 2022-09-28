@@ -227,6 +227,11 @@ h2 ~ p {
   padding: 10vh 0 5vh;
   text-align: center;
 }
+
+.footer nav .social-list {
+  margin-top: 1em;
+}
+
 .footer-nav li {
   display: inline-block;
   margin: 2em 1em 0;

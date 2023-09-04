@@ -6,4 +6,5 @@ link: https://blog.appsignal.com/2022/10/05/security-best-practices-for-your-rai
 draft: false
 ---
 
-Description of good security practice during Rails app development
+Description of good Security practice during Rails app development
+

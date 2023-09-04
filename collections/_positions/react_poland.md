@@ -9,7 +9,7 @@ to: Ongoing
 period: ""
 location: Remote
 postFooter: ""
-position_no: 1
+position_no: 2
 ---
 
 I was responsible for, maintaining and development of new features for one of the company clients. My work was focused mainly on backend api project that would communicate with frontend application.

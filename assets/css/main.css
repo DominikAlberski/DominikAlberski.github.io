@@ -426,6 +426,15 @@ h2 ~ p {
   padding: 5px 0;
 }
 
+.company-logo {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.company-logo.on-dark {
+  background-color: #000;
+}
+
 .home-section h4 {
   margin-bottom: 0.5em;
   text-align: center;
@@ -593,10 +602,24 @@ h2 ~ p {
 }
 .post .post-header .company .company-name, .post .post-header .school .school-name {
   display: block;
+  margin-top: auto;
+  margin-bottom: auto;
 }
-.post .post-header .company .company-link, .post .post-header .school .school-link {
+.post .post-header .company .company-link {
   display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: flex-start;
 }
+.post .post-header .school .school-link {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 .post-content {
   font-size: 1.1rem;
 }

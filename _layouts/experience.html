@@ -12,13 +12,13 @@ layout: default
         {% if page.companyAddress %}
           <a href="{{ page.companyAddress }}" class="company-link" target="_blank">
             {% if page.companyLogo %}
-              <img src="{{ page.companyLogo }}" alt="logo">
+              <img src="{{ page.companyLogo }}" alt="logo" class="company-logo {{ page.companyLogoClass }}">
             {% endif %}
             <h2 class="company-name">{{ page.company }}</h2>
           </a>
         {% else %}
           {% if page.companyLogo %}
-            <img src="{{ page.companyLogo }}" alt="logo">
+            <img src="{{ page.companyLogo }}" alt="logo" class="company-logo {{ page.companyLogoClass }}">
           {% endif %}
           <h2 class="company-name">{{ page.company }}</h2>
         {% endif %}

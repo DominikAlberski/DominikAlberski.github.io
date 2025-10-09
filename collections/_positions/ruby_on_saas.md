@@ -9,7 +9,7 @@ to: Sep 2023
 period: "9 months"
 location: Remote
 postFooter: ""
-position_no: 1
+position_no: 2
 ---
 
 As a senior developer with a strong background in back-end development, I was primarily responsible for API integrations with third-party external services. My ability to quickly integrate with other companies' systems enabled the client to gain recognition and establish new business relationships.

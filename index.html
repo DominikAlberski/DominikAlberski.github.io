@@ -43,7 +43,8 @@ layout: default
       <h1>Experience</h1>
     </div>
     <div class="positions-list">
-      {% for position in site.positions %}
+      {% assign sorted_positions = site.positions | sort: 'position_no' %}
+      {% for position in sorted_positions %}
         {% include position-summary.html %}
       {% endfor %}
     </div>
@@ -54,7 +55,8 @@ layout: default
       <h1>Education</h1>
     </div>
     <div class="educations-list">
-      {% for education in site.educations %}
+      {% assign sorted_educations = site.educations | sort: 'position_no' %}
+      {% for education in sorted_educations %}
         {% include education-summary.html %}
       {% endfor %}
     </div>

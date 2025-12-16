@@ -4,7 +4,8 @@
   <a class="drop-trigger" href="/#positions">Experience</a>
   <ul class="drop-menu">
     <li>Recent Positions</li>
-    {% for position in site.positions limit:3 %}
+    {% assign sorted_positions = site.positions | sort: 'position_no' %}
+    {% for position in sorted_positions limit:3 %}
       <li><a href="{{ position.url }}">{{ position.title }}</a></li>
     {% endfor %}
   </ul>
@@ -13,7 +14,8 @@
   <a class="drop-trigger" href="/#educations">Education</a>
   <ul class="drop-menu">
     <li>Recent Education</li>
-    {% for education in site.educations limit:3 %}
+    {% assign sorted_educations = site.educations | sort: 'position_no' %}
+    {% for education in sorted_educations limit:3 %}
       <li><a href="{{ education.url }}">{{ education.title }}</a></li>
     {% endfor %}
   </ul>

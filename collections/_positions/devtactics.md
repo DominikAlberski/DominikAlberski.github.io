@@ -7,7 +7,7 @@ companyLogoClass: on-dark
 companyAddress: https://www.devtactics.net/
 from: Oct 2023
 to: Now
-period: "Over 2 years"
+period: Over 2 years
 location: Remote
 postFooter: ""
 position_no: 1

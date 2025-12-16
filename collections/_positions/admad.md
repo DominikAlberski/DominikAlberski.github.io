@@ -6,7 +6,7 @@ companyLogo: false
 companyAdress: "#"
 from: Jan 2020
 to: Apr 2021
-period: 1 yr 4 mos
+period: 1 year 4 months
 location: Warsaw, Masovian District, Poland
 postFooter: ""
 position_no: 4

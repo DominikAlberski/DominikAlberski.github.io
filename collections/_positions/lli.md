@@ -6,7 +6,7 @@ companyLogo: /assets/images/logo/logo-lli.jpeg
 companyAddress: https://www.llinformatics.com/
 from: Sep 2017
 to: Nov 2018
-period: 1 yr 3 mos
+period: 1 year 3 months
 location: Warsaw, Masovian District, Poland
 postFooter: ""
 position_no: 6

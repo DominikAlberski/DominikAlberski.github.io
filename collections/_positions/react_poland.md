@@ -5,7 +5,7 @@ company: React Poland
 companyLogo: false
 companyAdress: "#"
 from: May 2021
-to: Ongoing
+to: Jan 2023
 period: ""
 location: Remote
 postFooter: ""

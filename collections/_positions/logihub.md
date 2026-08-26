@@ -3,7 +3,7 @@ layout: experience
 title: Junior Ruby Developer
 company: Logihub Sp. z o.o.
 companyLogo: false
-companyAdress: "#"
+companyAddress: "#"
 from: Dec 2018
 to: Jan 2020
 period: 1 year 2 months

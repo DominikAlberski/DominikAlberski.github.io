@@ -10,7 +10,7 @@ function activateGallery() {
 
   thumbanails.forEach(function(thumbanail) {
 
-    let newImageSrc  = thumbnail.dataset.largeVersion;
+    let newImageSrc  = thumbanail.dataset.largeVersion;
     let largeVersion = new Image();
     largeVersion.src = newImageSrc;
 

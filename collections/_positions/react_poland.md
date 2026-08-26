@@ -6,7 +6,7 @@ companyLogo: false
 companyAdress: "#"
 from: May 2021
 to: Jan 2023
-period: ""
+period: 1 year 8 months
 location: Remote
 postFooter: ""
 position_no: 3

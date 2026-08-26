@@ -34,9 +34,7 @@ p {
   margin: 0.75em 0;
 }
 h2 ~ p {
-  .
-  .
-  .
+  margin-top: 0;
 }
 .nav-links a {
   font-size: 0.8rem;

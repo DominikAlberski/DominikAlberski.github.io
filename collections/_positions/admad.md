@@ -3,7 +3,7 @@ layout: experience
 title: Ruby Developer
 company: Admad - Performance Marketing Agency
 companyLogo: false
-companyAdress: "#"
+companyAddress: "#"
 from: Jan 2020
 to: Apr 2021
 period: 1 year 4 months

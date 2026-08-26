@@ -2,3 +2,5 @@
 .DS_Store
 *.code-workspace
 .vscode/
+_site/
+.jekyll-cache/

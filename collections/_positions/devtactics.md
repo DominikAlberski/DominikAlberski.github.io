@@ -13,6 +13,8 @@ postFooter: ""
 position_no: 1
 ---
 
-As a Solution Architect, I am responsible for designing and implementing software solutions that meet the needs of our customer. My role involves collaborating with product teams to understand business requirements, creating technical specifications, and ensuring that the solutions are scalable, maintainable, and aligned with industry best practices.
-I work closely with developers and product managers, to ensure that the solutions are delivered on time and within budget.
-I am also responsible for conducting code reviews, and ensuring that the team follows best practices in software development. My goal is to create high-quality software solutions that meet the needs of our customers and help them achieve their business objectives.
+As a Solution Architect, I design and implement software solutions that meet our customers' needs.
+
+I collaborate with product teams to understand business requirements, create technical specifications, and make sure each solution is scalable, maintainable, and aligned with industry best practices. I work closely with developers and product managers to make sure that solutions are delivered on time and within budget.
+
+I also conduct code reviews and make sure the team follows best practices in software development. My goal is high-quality software that meets our customers' needs and helps them achieve their business objectives.

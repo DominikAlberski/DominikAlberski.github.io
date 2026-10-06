@@ -1,3 +1,25 @@
+{% if article.collection == "posts" %}
+<div class="article-card article-card-own">
+  <header class="article-header">
+    <span class="badge">My post</span>
+    <div class="article-title">
+      <a href="{{ article.url }}">
+        <h2>
+          {{ article.title }}
+        </h2>
+      </a>
+    </div>
+    <div class="article-autor-name">
+      <h3>
+        {{ site.author }}
+      </h3>
+    </div>
+  </header>
+  <main>
+    <p>{{ article.description }}</p>
+  </main>
+</div>
+{% else %}
 <div class="article-card">
   <header class="article-header">
     <div class="article-title">
@@ -17,3 +39,4 @@
     {{ article.content }}
   </main>
 </div>
+{% endif %}

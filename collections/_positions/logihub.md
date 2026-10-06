@@ -12,11 +12,8 @@ postFooter: ""
 position_no: 5
 ---
 
-I was part of a small development team. We were expanding and maintaining CRM-like system for in-company use. My responsibilities were focused on the backend part of the application. I was responsible for the creation of new features and maintenance of the existing code base, occasionally there were also simple front-end tasks. The application was used by various company departments and required different features and integrations with systems from other collaborating companies and clients.
+I built new features and maintained the existing code base of a CRM-like system for in-company use. Various company departments used the application, and it needed different features and integrations with systems from collaborating companies and clients.
 
-During my time there, I broadened my knowledge of APIs and system integrations. I was also introduced to the Kanban-based approach to project management.
+As part of a small development team that expanded and maintained the system, I focused on the backend, with occasional simple front-end tasks. I broadened my knowledge of APIs and system integrations and learned a Kanban-based approach to project management.
 
-Leading technologies which I was using were Rails 5 and 6, PostgreSQL, RSpec, Sidekiq, and RabitMQ.
-
-
-
+My leading technologies were Rails 5 and 6, PostgreSQL, RSpec, Sidekiq, and RabbitMQ.

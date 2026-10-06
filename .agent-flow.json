@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-09-24T13:58:51Z",
+  "agents": [
+    {
+      "harness": "claude",
+      "role": "project-manager",
+      "model": "claude-opus-5-5"
+    },
+    {
+      "harness": "claude",
+      "role": "architect",
+      "model": "claude-opus-5-5"
+    },
+    {
+      "harness": "claude",
+      "role": "frontend-developer",
+      "model": "claude-opus-5-5"
+    },
+    {
+      "harness": "claude",
+      "role": "reviewer",
+      "model": "claude-opus-5-5"
+    }
+  ]
+}

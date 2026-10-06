@@ -1,0 +1,10 @@
+<article class="blog-posts post-card">
+  <header class="post-header">
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <div class="post-byline">
+      <p><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%B %-d, %Y' }}</time></p>
+    </div>
+  </header>
+  <p class="post-card-description">{{ post.description }}</p>
+  <a class="read-link" href="{{ post.url }}" aria-label="Read post: {{ post.title }}">Read post</a>
+</article>

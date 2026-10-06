@@ -1,5 +1,5 @@
-<li><a href="/">Home</a></li>
-<!-- <li><a href="/gallery">Gallery</a></li> -->
+{% assign here = page.url %}
+<li><a href="/"{% if here == '/' %} class="active" aria-current="page"{% endif %}>Home</a></li>
 <li class="dropdown">
   <a class="drop-trigger" href="/#positions">Experience</a>
   <ul class="drop-menu">
@@ -21,6 +21,9 @@
   </ul>
 </li>
 <li>
-  <a href="/articles">Links</a>
+  <a href="/blog/"{% if here contains '/blog/' %} class="active" aria-current="page"{% endif %}>Blog</a>
+</li>
+<li>
+  <a href="/articles/"{% if here contains '/articles/' %} class="active" aria-current="page"{% endif %}>Links</a>
 </li>
 <!-- <li><a href="{{ site.posts.first.url }}">Newest Post</a></li> -->

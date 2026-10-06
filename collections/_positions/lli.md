@@ -12,15 +12,8 @@ postFooter: ""
 position_no: 6
 ---
 
-My first commercial programming experience.
+My main responsibility was to maintain [Stillpoint](https://www.llinformatics.com/case_studies/stillpoint) and develop its new features. It was my first commercial programming experience, at LLinformatics, and I learned a lot there.
 
-I've learn a lot here. I was working in a small team and have my first hands on experience with git flow.
+I worked in a small team, where I got my first hands-on experience with git flow. I also took part in an agile project management process similar to Scrum for the first time.
 
-It was also the first time for me to get part in agile project management process similar to scrum.
-
-My main responsibility was maintenance and development of new features for [Stillpoint](https://www.llinformatics.com/case_studies/stillpoint)
-
-I was using Rails 4, PostgreSQL, RSpec, and other Rails related technologies.
-
-
-
+I developed and maintained the application with Rails 4, PostgreSQL, RSpec, and other Rails-related technologies.

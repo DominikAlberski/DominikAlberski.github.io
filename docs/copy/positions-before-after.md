@@ -15,13 +15,13 @@ Word counts do not include link URLs.
 
 ### After (125 words)
 
-> As an Application Architect and Technical Analyst, I designed software solutions that met our customers' needs.
+> As an Application Architect and Technical Analyst, I design software solutions that meet our customers' needs.
 >
-> I collaborated with product teams to understand business requirements, analyzed them, created technical specifications, and made sure each solution was scalable, maintainable, and aligned with industry best practices. I worked closely with developers and product managers to deliver solutions on time and within budget.
+> I collaborate with product teams to understand business requirements, analyze them, create technical specifications, and make sure each solution is scalable, maintainable, and aligned with industry best practices. I work closely with developers and product managers to deliver solutions on time and within budget.
 >
 > I designed a snapshot service. The service saves a run environment with its dependencies. Later builds load the snapshot to run faster. I also oversaw the application frontend part of an AI chatbot.
 >
-> I conducted code reviews and made sure the team followed best practices in software development. My goal was high-quality software that met our customers' needs and helped them achieve their business objectives.
+> I conduct code reviews and make sure the team follows best practices in software development. My goal is high-quality software that meets our customers' needs and helps them achieve their business objectives.
 
 ### Fact checklist
 
@@ -41,7 +41,7 @@ Word counts do not include link URLs.
 | Goal: high-quality software that meets customer needs | Paragraph 4, sentence 2 |
 | Goal: help customers achieve their business objectives | Paragraph 4, sentence 2 |
 
-The after text claims no release, no result, and no number. The user left the role before the service was released.
+The after text claims no release, no result, and no number. The service is not released yet.
 
 ## ruby_on_saas.md
 

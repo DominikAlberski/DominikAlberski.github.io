@@ -24,3 +24,11 @@ exclude:
   - vault
   - graphify-out
   - obsidian
+  - docs
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - .bundle
+
+theme: null

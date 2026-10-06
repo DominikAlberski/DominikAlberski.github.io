@@ -12,9 +12,6 @@ postFooter: ""
 position_no: 4
 ---
 
-This is a direct continuation of the previous contract, for the same company and management but a different branch/brand.
+As an additional task, I started to review my teammates' pull requests. On my own initiative, and by nagging, I also got the team to try to introduce some sort of annual knowledge exchange: presentations of what we had learned in the last period.
 
-My duties regarding coding haven't changed much from the previous ones but as an additional task, I also started to review my teammate's Pull Requests.
-
-Also due to my initiative, and nagging we were trying to introduce some sort of annual knowledge exchange thru presentations of what we have learned in the last period.
-
+This work was a direct continuation of my previous contract, for the same company and management but a different branch or brand. My coding duties did not change much from the previous ones.

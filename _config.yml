@@ -1,5 +1,5 @@
 title: "Programming & IT | Dominik Alberski"
-description: "Personal portfolio of Dominik Alberski — Ruby/Rails backend developer and Solution Architect."
+description: "Personal portfolio of Dominik Alberski — Ruby/Rails backend developer and Application Architect / Technical Analyst."
 author: "Dominik Alberski"
 url: "https://dominikalberski.github.io"
 
@@ -13,3 +13,13 @@ collections:
     sort_by: position_no
   articles:
     output: false
+
+exclude:
+  - docs
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - .bundle
+
+theme: null

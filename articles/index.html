@@ -4,7 +4,9 @@ title: Summarize of articles that I've read and are worth your time
 ---
 
 <div class="articles-cards">
-  {% for article in site.articles %}
+  {% comment %} One list: own posts and external articles, sorted by title. {% endcomment %}
+  {% assign cards = site.articles | concat: site.posts | sort_natural: "title" %}
+  {% for article in cards %}
     {% unless article.draft %}
       {% include article-card.html %}
     {% endunless %}

@@ -1,11 +1,0 @@
-I"<p>Prefer lambdas over procs</p>
-<ul>
-  <li>a <code class="language-plaintext highlighter-rouge">Proc</code> instance can be either lambda or a proc</li>
-  <li>all <code class="language-plaintext highlighter-rouge">lambda</code>s are <code class="language-plaintext highlighter-rouge">Proc</code>s</li>
-  <li>all <code class="language-plaintext highlighter-rouge">proc</code>s are <code class="language-plaintext highlighter-rouge">Proc</code>s</li>
-  <li>code blocks behave like <code class="language-plaintext highlighter-rouge">proc</code>s</li>
-  <li>you can determine the kind of Proc by calling <code class="language-plaintext highlighter-rouge">lambda?</code> on it
-lambda -&gt; strict argument count
-lambada -&gt; do not return from method when return is called in it</li>
-</ul>
-:ET

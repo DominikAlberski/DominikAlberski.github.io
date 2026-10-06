@@ -13,29 +13,35 @@ Word counts do not include link URLs.
 > I work closely with developers and product managers, to ensure that the solutions are delivered on time and within budget.
 > I am also responsible for conducting code reviews, and ensuring that the team follows best practices in software development. My goal is to create high-quality software solutions that meet the needs of our customers and help them achieve their business objectives.
 
-### After (94 words)
+### After (125 words)
 
-> As a Solution Architect, I design and implement software solutions that meet our customers' needs.
+> As an Application Architect and Technical Analyst, I designed software solutions that met our customers' needs.
 >
-> I collaborate with product teams to understand business requirements, create technical specifications, and make sure each solution is scalable, maintainable, and aligned with industry best practices. I work closely with developers and product managers to make sure that solutions are delivered on time and within budget.
+> I collaborated with product teams to understand business requirements, analyzed them, created technical specifications, and made sure each solution was scalable, maintainable, and aligned with industry best practices. I worked closely with developers and product managers to deliver solutions on time and within budget.
 >
-> I also conduct code reviews and make sure the team follows best practices in software development. My goal is high-quality software that meets our customers' needs and helps them achieve their business objectives.
+> I designed a snapshot service. The service saves a run environment with its dependencies. Later builds load the snapshot to run faster. I also oversaw the application frontend part of an AI chatbot.
+>
+> I conducted code reviews and made sure the team followed best practices in software development. My goal was high-quality software that met our customers' needs and helped them achieve their business objectives.
 
 ### Fact checklist
 
 | Fact in the before text | Place in the after text |
 |---|---|
-| Role: Solution Architect | Paragraph 1 |
-| Designs and implements software solutions that meet customer needs | Paragraph 1 |
+| Role title (changed by decision D5 to Application Architect / Technical Analyst) | Paragraph 1 |
+| Designs software solutions that meet customer needs | Paragraph 1 |
 | Collaborates with product teams to understand business requirements | Paragraph 2, sentence 1 |
 | Creates technical specifications (a separate task) | Paragraph 2, sentence 1 |
 | Solutions are scalable, maintainable, and aligned with industry best practices | Paragraph 2, sentence 1 |
 | Works closely with developers and product managers | Paragraph 2, sentence 2 |
-| Makes sure that solutions are delivered on time and within budget | Paragraph 2, sentence 2 |
-| Conducts code reviews | Paragraph 3, sentence 1 |
-| Makes sure the team follows best practices in software development | Paragraph 3, sentence 1 |
-| Goal: high-quality software solutions that meet customer needs | Paragraph 3, sentence 2 |
-| Goal: help customers achieve their business objectives | Paragraph 3, sentence 2 (stated as a goal) |
+| Delivers solutions on time and within budget | Paragraph 2, sentence 2 |
+| New (D5): designed a snapshot service that saves a run environment with its dependencies; later builds load it to run faster | Paragraph 3, sentences 1 to 3 |
+| New (D5): oversaw the application frontend part of an AI chatbot | Paragraph 3, sentence 4 |
+| Conducts code reviews | Paragraph 4, sentence 1 |
+| Makes sure the team follows best practices in software development | Paragraph 4, sentence 1 |
+| Goal: high-quality software that meets customer needs | Paragraph 4, sentence 2 |
+| Goal: help customers achieve their business objectives | Paragraph 4, sentence 2 |
+
+The after text claims no release, no result, and no number. The user left the role before the service was released.
 
 ## ruby_on_saas.md
 

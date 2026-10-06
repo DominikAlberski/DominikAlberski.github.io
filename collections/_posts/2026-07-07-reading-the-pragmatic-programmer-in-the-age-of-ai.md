@@ -46,7 +46,7 @@ Master your tools, invest in your environment — still valid. But increasingly 
 
 That reframing shows up most clearly in the **Blackboard pattern** — one of the book's more academic-feeling ideas, where independent specialists post partial solutions to a shared space until a solution emerges. It suddenly resembles modern multi-agent systems, where specialized agents collaborate through a shared space rather than a shared conversation.
 
-![Image description](/assets/images/posts/reading-the-pragmatic-programmer-in-the-age-of-ai/image-1.png)
+![Blackboard architecture diagram: a research agent, a coding agent, and a review agent write to one shared space. The shared space holds goals, decisions, findings, and tasks, not conversation.](/assets/images/posts/reading-the-pragmatic-programmer-in-the-age-of-ai/image-1.png)
 
 The reframe I keep coming back to is that what agents need to share isn't conversational context, which gets expensive fast, but structured knowledge: goals, decisions, findings, tasks.
 

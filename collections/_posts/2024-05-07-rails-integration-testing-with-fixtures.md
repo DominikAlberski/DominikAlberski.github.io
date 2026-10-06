@@ -2,8 +2,7 @@
 layout: post
 title: 'Rails Integration Testing with Fixtures: A Practical Approach for Complex
   Data Sets'
-description: The Challenge of Realistic Test Data   I recently faced a unique challenge
-  in writing...
+description: Load about 10,000 related records from 13 models into Rails integration tests fast. Use fixtures from production data, not factory_bot.
 date: '2024-05-07 07:47:48 +0000'
 tags:
 - rails

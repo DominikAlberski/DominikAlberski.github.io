@@ -1,6 +1,6 @@
 ---
 layout: experience
-title: Solution Architect
+title: Application Architect / Technical Analyst
 company: Devtactics
 companyLogo: /assets/images/logo/DevTactics_wordmark.png
 companyLogoClass: on-dark
@@ -13,8 +13,10 @@ postFooter: ""
 position_no: 1
 ---
 
-As a Solution Architect, I design and implement software solutions that meet our customers' needs.
+As an Application Architect and Technical Analyst, I designed software solutions that met our customers' needs.
 
-I collaborate with product teams to understand business requirements, create technical specifications, and make sure each solution is scalable, maintainable, and aligned with industry best practices. I work closely with developers and product managers to make sure that solutions are delivered on time and within budget.
+I collaborated with product teams to understand business requirements, analyzed them, created technical specifications, and made sure each solution was scalable, maintainable, and aligned with industry best practices. I worked closely with developers and product managers to deliver solutions on time and within budget.
 
-I also conduct code reviews and make sure the team follows best practices in software development. My goal is high-quality software that meets our customers' needs and helps them achieve their business objectives.
+I designed a snapshot service. The service saves a run environment with its dependencies. Later builds load the snapshot to run faster. I also oversaw the application frontend part of an AI chatbot.
+
+I conducted code reviews and made sure the team followed best practices in software development. My goal was high-quality software that met our customers' needs and helped them achieve their business objectives.

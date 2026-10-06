@@ -15,15 +15,6 @@ collections:
     output: false
 
 exclude:
-  - AGENTS.md
-  - coord
-  - coordination
-  - dashboard
-  - dispatcher
-  - setup_agent
-  - vault
-  - graphify-out
-  - obsidian
   - docs
   - Gemfile
   - Gemfile.lock

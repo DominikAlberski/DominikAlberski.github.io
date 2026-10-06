@@ -15,9 +15,9 @@
       </h3>
     </div>
   </header>
-  <main>
+  <div class="article-body">
     <p>{{ article.description }}</p>
-  </main>
+  </div>
 </div>
 {% else %}
 <div class="article-card">
@@ -35,8 +35,8 @@
       </h3>
     </div>
   </header>
-  <main>
+  <div class="article-body">
     {{ article.content }}
-  </main>
+  </div>
 </div>
 {% endif %}

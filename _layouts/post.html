@@ -18,10 +18,10 @@ layout: default
       {% endif %}
     </header>
     {% if page.cover_image %}
-      <img class="post-cover" src="{{ page.cover_image }}" alt="">
+      <img class="post-cover" src="{{ page.cover_image }}" alt="" width="{{ page.cover_width | default: 1000 }}" height="{{ page.cover_height | default: 420 }}">
     {% endif %}
     <div class="post-content">
-      {{ content }}
+      {{ content | replace: '<table>', '<div class="table-scroll"><table>' | replace: '</table>', '</table></div>' }}
     </div>
     {% if page.canonical_url %}
       <footer class="post-footer">

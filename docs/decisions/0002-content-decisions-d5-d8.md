@@ -24,3 +24,10 @@ Use the new text from d7-description.md.
 
 ### D8. Amazon cover
 Keep the cover. The user answered no to removal. The PM advised removal because of the copyright risk. The user accepts the risk.
+
+## Amendment, 2026-10-06
+
+The user is still in the devtactics role.
+The D5 sentence about leaving the role is wrong.
+The service is not released yet.
+The other D5 rules stay.
